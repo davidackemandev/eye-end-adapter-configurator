@@ -51,49 +51,196 @@ function App() {
   ];
 
   const sensors = [
-    { value: "MR01-50", label: "MR01-50 - 1/4-28F", eyeendKit: "AC1047-3" },
-    { value: "MR01-100", label: "MR01-100 - 1/4-28F", eyeendKit: "AC1047-3" },
-    { value: "MR01-200", label: "MR01-200 - 1/4-28F", eyeendKit: "AC1047-3" },
-    { value: "MR01-300", label: "MR01-300 - 1/2-20F", eyeendKit: "AC1047-2" },
-    { value: "MR01-500", label: "MR01-500 - 1/2-20F", eyeendKit: "AC1047-2" },
-    { value: "MR01-750", label: "MR01-750 - 1/2-20F", eyeendKit: "AC1047-2" },
-    { value: "MR01-1000", label: "MR01-1000 - 1/2-20F", eyeendKit: "AC1047-2" },
-    { value: "MR01-1500", label: "MR01-1500 - 1/2-20F", eyeendKit: "AC1047-2" },
-    { value: "MR01-2000", label: "MR01-2000 - 1/2-20F", eyeendKit: "AC1047-2" },
-    { value: "MR01-5000", label: "MR01-5000 - 3/4-16F", eyeendKit: "none" },
-    { value: "MR01-10000", label: "MR01-10000 - 3/4-16F", eyeendKit: "none" },
+    {
+      value: "MR01-50",
+      label:
+        "MR01-50 - Force sensor, 50 lbF / 800 ozF / 25 kgF / 25000 gF / 250 N - 1/4-28F",
+      eyeendKit: "AC1047-3",
+    },
+    {
+      value: "MR01-100",
+      label:
+        "MR01-100 - Force sensor, 100 lbF / 1600 ozF / 50 kgF / 50000 gF / 500 N - 1/4-28F",
+      eyeendKit: "AC1047-3",
+    },
+    {
+      value: "MR01-200",
+      label:
+        "MR01-200 - Force sensor, 200 lbF / 3200 ozF / 100 kgF / 1000 N / 1 kN - 1/4-28F",
+      eyeendKit: "AC1047-3",
+    },
+    {
+      value: "MR01-300",
+      label:
+        "MR01-300 - Force sensor, 300 lbF / 4800 ozF / 150 kgF / 1500 N / 1.5 kN - 1/2-20F",
+      eyeendKit: "AC1047-2",
+    },
+    {
+      value: "MR01-500",
+      label:
+        "MR01-500 - Force sensor, 500 lbF / 8000 ozF / 250 kgF / 2500 N / 2.5 kN - 1/2-20F",
+      eyeendKit: "AC1047-2",
+    },
+    {
+      value: "MR01-750",
+      label:
+        "MR01-750 - Force sensor, 750 lbF / 12000 ozF / 375 kgF / 3750 N / 3.75 kN - 1/2-20F",
+      eyeendKit: "AC1047-2",
+    },
+    {
+      value: "MR01-1000",
+      label:
+        "MR01-1000 - Force sensor, 1000 lbF / 16000 ozF / 500 kgF / 5000 N / 5 kN - 1/2-20F",
+      eyeendKit: "AC1047-2",
+    },
+    {
+      value: "MR01-1500",
+      label:
+        "MR01-1500 - Force sensor, 1500 lbF / 24000 ozF / 750 kgF / 7500 N / 7.5 kN - 1/2-20F",
+      eyeendKit: "AC1047-2",
+    },
+    {
+      value: "MR01-2000",
+      label:
+        "MR01-2000 - Force sensor, 2000 lbF / 32000 ozF / 1000 kgF / 10000 N / 10 kN - 1/2-20F",
+      eyeendKit: "AC1047-2",
+    },
+    {
+      value: "MR01-5000",
+      label:
+        "MR01-5000 - Force sensor, 5000 lbF / 2500 kgF / 25000 N / 25 kN - 3/4-16F",
+      eyeendKit: "none",
+    },
+    {
+      value: "MR01-10000",
+      label:
+        "MR01-10000 - Force sensor, 10000 lbF / 5000 kgF / 50000 N / 50 kN - 3/4-16F",
+      eyeendKit: "none",
+    },
   ];
 
   const forcegauges = [
-    { value: "M5-012", label: "M5-012 - Force gauge, 0.12 lbF / 2 ozF / 50 gF / 0.5 N / 500 mN - #10-32M", eyeendKit: "AC1045" },
-    { value: "M5-025", label: "M5-025 - Force gauge, 0.25 lbF / 4 ozF / 100 gF / 1 N / 1000 mN - #10-32M", eyeendKit: "AC1045" },
-    { value: "M5-05", label: "M5-05 - Force gauge, 0.5 lbF / 8 ozF / 250 gF / 2.5 N / 2500 mN - #10-32M", eyeendKit: "AC1045" },
-    { value: "M5-2", label: "M5-2 - Force gauge, 2 lbF / 32 ozF / 1 kgF / 1000 gF / 10 N - #10-32M", eyeendKit: "AC1045" },
-    { value: "M5-5", label: "M5-5 - Force gauge, 5 lbF / 80 ozF / 2.5 kgF / 2500 gF / 25 N - #10-32M", eyeendKit: "AC1045" },
-    { value: "M5-10", label: "M5-10 - Force gauge, 10 lbF / 160 ozF / 5 kgF / 5000 gF / 50 N - #10-32M", eyeendKit: "AC1045" },
-    { value: "M5-20", label: "M5-20 - Force gauge, 20 lbF / 320 ozF / 10 kgF / 10000 gF / 100 N - #10-32M", eyeendKit: "AC1045" },
-    { value: "M5-50", label: "M5-50 - Force gauge, 50 lbF / 800 ozF / 25 kgF / 25000 gF / 250 N - #10-32M", eyeendKit: "AC1045" },
-    { value: "M5-100", label: "M5-100 - Force gauge, 100 lbF / 1600 ozF / 50 kgF / 50000 gF / 500 N - #10-32M", eyeendKit: "AC1045" },
-    { value: "M5-200", label: "M5-200 - Force gauge, 200 lbF / 3200 ozF / 100 kgF / 1000 N / 1 kN - 5/16-18M", eyeendKit: "AC1045-1" },
-    { value: "M5-300", label: "M5-300 - Force gauge, 300 lbF / 4800 ozF / 150 kgF / 1500 N / 1.5 kN - 5/16-18M", eyeendKit: "AC1045-1" },
-    { value: "M5-500", label: "M5-500 - Force gauge, 500 lbF / 8000 ozF / 250 kgF / 2500 N / 2.5 kN - 5/16-18M", eyeendKit: "AC1045-1" },
-    { value: "M5-750", label: "M5-750 - Force gauge, 750 lbF / 12000 ozF / 375 kgF / 3750 N / 3.75 kN - 1/2-20F", eyeendKit: "AC1045-2" },
-    { value: "M5-1000", label: "M5-1000 - Force gauge, 1000 lbF / 16000 ozF / 500 kgF / 5000 N / 5 kN - 1/2-20F", eyeendKit: "AC1045-2" },
-    { value: "M5-1500", label: "M5-1500 - Force gauge, 1500 lbF / 24000 ozF / 750 kgF / 7500 N / 7.5 kN - 1/2-20F", eyeendKit: "AC1045-2" },
-    { value: "M5-2000", label: "M5-2000 - Force gauge, 2000 lbF / 32000 ozF / 1000 kgF / 10000 N / 10 kN - 1/2-20F", eyeendKit: "AC1045-2" },
-  ]
+    {
+      value: "M5-012",
+      label:
+        "M5-012 - Force gauge, 0.12 lbF / 2 ozF / 50 gF / 0.5 N / 500 mN - #10-32M",
+      eyeendKit: "AC1045",
+    },
+    {
+      value: "M5-025",
+      label:
+        "M5-025 - Force gauge, 0.25 lbF / 4 ozF / 100 gF / 1 N / 1000 mN - #10-32M",
+      eyeendKit: "AC1045",
+    },
+    {
+      value: "M5-05",
+      label:
+        "M5-05 - Force gauge, 0.5 lbF / 8 ozF / 250 gF / 2.5 N / 2500 mN - #10-32M",
+      eyeendKit: "AC1045",
+    },
+    {
+      value: "M5-2",
+      label:
+        "M5-2 - Force gauge, 2 lbF / 32 ozF / 1 kgF / 1000 gF / 10 N - #10-32M",
+      eyeendKit: "AC1045",
+    },
+    {
+      value: "M5-5",
+      label:
+        "M5-5 - Force gauge, 5 lbF / 80 ozF / 2.5 kgF / 2500 gF / 25 N - #10-32M",
+      eyeendKit: "AC1045",
+    },
+    {
+      value: "M5-10",
+      label:
+        "M5-10 - Force gauge, 10 lbF / 160 ozF / 5 kgF / 5000 gF / 50 N - #10-32M",
+      eyeendKit: "AC1045",
+    },
+    {
+      value: "M5-20",
+      label:
+        "M5-20 - Force gauge, 20 lbF / 320 ozF / 10 kgF / 10000 gF / 100 N - #10-32M",
+      eyeendKit: "AC1045",
+    },
+    {
+      value: "M5-50",
+      label:
+        "M5-50 - Force gauge, 50 lbF / 800 ozF / 25 kgF / 25000 gF / 250 N - #10-32M",
+      eyeendKit: "AC1045",
+    },
+    {
+      value: "M5-100",
+      label:
+        "M5-100 - Force gauge, 100 lbF / 1600 ozF / 50 kgF / 50000 gF / 500 N - #10-32M",
+      eyeendKit: "AC1045",
+    },
+    {
+      value: "M5-200",
+      label:
+        "M5-200 - Force gauge, 200 lbF / 3200 ozF / 100 kgF / 1000 N / 1 kN - 5/16-18M",
+      eyeendKit: "AC1045-1",
+    },
+    {
+      value: "M5-300",
+      label:
+        "M5-300 - Force gauge, 300 lbF / 4800 ozF / 150 kgF / 1500 N / 1.5 kN - 5/16-18M",
+      eyeendKit: "AC1045-1",
+    },
+    {
+      value: "M5-500",
+      label:
+        "M5-500 - Force gauge, 500 lbF / 8000 ozF / 250 kgF / 2500 N / 2.5 kN - 5/16-18M",
+      eyeendKit: "AC1045-1",
+    },
+    {
+      value: "M5-750",
+      label:
+        "M5-750 - Force gauge, 750 lbF / 12000 ozF / 375 kgF / 3750 N / 3.75 kN - 1/2-20F",
+      eyeendKit: "AC1045-2",
+    },
+    {
+      value: "M5-1000",
+      label:
+        "M5-1000 - Force gauge, 1000 lbF / 16000 ozF / 500 kgF / 5000 N / 5 kN - 1/2-20F",
+      eyeendKit: "AC1045-2",
+    },
+    {
+      value: "M5-1500",
+      label:
+        "M5-1500 - Force gauge, 1500 lbF / 24000 ozF / 750 kgF / 7500 N / 7.5 kN - 1/2-20F",
+      eyeendKit: "AC1045-2",
+    },
+    {
+      value: "M5-2000",
+      label:
+        "M5-2000 - Force gauge, 2000 lbF / 32000 ozF / 1000 kgF / 10000 N / 10 kN - 1/2-20F",
+      eyeendKit: "AC1045-2",
+    },
+  ];
 
   const baseplates = [
-    { value: "baseplate 0", label: "Baseplate - #10-32M F", eyeendKit: 'AC1047'},
-    { value: "baseplate 1", label: "Baseplate - 5/16-18 F", eyeendKit: "AC1047-1" },
-    { value: "baseplate 2", label: "Baseplate - 1/2-20 F", eyeendKit: "AC1047-2" }
-  ]
+    {
+      value: "baseplate 0",
+      label: "Baseplate - #10-32M F",
+      eyeendKit: "AC1047",
+    },
+    {
+      value: "baseplate 1",
+      label: "Baseplate - 5/16-18 F",
+      eyeendKit: "AC1047-1",
+    },
+    {
+      value: "baseplate 2",
+      label: "Baseplate - 1/2-20 F",
+      eyeendKit: "AC1047-2",
+    },
+  ];
 
   const devicesGrouped = [
-    {label: 'Sensors', options: sensors},
-    {label: 'Force Gauges', options: forcegauges},
-    {label: 'Baseplates', options: baseplates}
-  ]
+    { label: "Sensors", options: sensors },
+    { label: "Force Gauges", options: forcegauges },
+    { label: "Baseplates", options: baseplates },
+  ];
 
   const eyeendKits = [
     {
@@ -198,6 +345,10 @@ function App() {
         "1x G1084 washer",
       ],
     },
+    {
+      model: "none",
+      description: "Eye end adapters are not available for this model.",
+    },
   ];
 
   // const eyeends = [
@@ -249,18 +400,21 @@ function App() {
             }}
           />
           {gripEyeEnd && (
-              <div className="resultItem">
-                <img className="resultItemImage" src={gripEyeEnd.imgsrc} />
-                <div className="resultItemText">
-                  <strong>{gripEyeEnd.model} - {gripEyeEnd.description}</strong>
-                  <div style={{ fontSize: ".9rem" }}>
-                    Includes:
-                    {gripEyeEnd.includes.map((item) => {
+            <div className="resultItem">
+              <img className="resultItemImage" src={gripEyeEnd.imgsrc} />
+              <div className="resultItemText">
+                <strong>
+                  {gripEyeEnd.model} - {gripEyeEnd.description}
+                </strong>
+                <div style={{ fontSize: ".9rem" }}>
+                  Includes:
+                  {gripEyeEnd.includes &&
+                    gripEyeEnd.includes.map((item) => {
                       return <div>{item}</div>;
                     })}
-                  </div>
                 </div>
               </div>
+            </div>
           )}
         </div>
         <div className="resultItemArrow">
@@ -289,25 +443,33 @@ function App() {
               onSelect(item, "device");
             }}
           />
-          {deviceEyeEnd && (
-            <div className="resultItem">
-              <img className="resultItemImage" src={deviceEyeEnd.imgsrc} />
-              <div className="resultItemText">
-                <strong>{deviceEyeEnd.model} - {deviceEyeEnd.description}</strong>
-                <div style={{ fontSize: ".9rem" }}>
-                  Includes:
-                  {deviceEyeEnd.includes.map((item) => {
-                    return <div>{item}</div>;
-                  })}
+          {deviceEyeEnd &&
+            deviceEyeEnd.model !==
+              "none" && (
+                <div className="resultItem">
+                  <img className="resultItemImage" src={deviceEyeEnd.imgsrc} />
+                  <div className="resultItemText">
+                    <strong>
+                      {deviceEyeEnd.model} - {deviceEyeEnd.description}
+                    </strong>
+                    <div style={{ fontSize: ".9rem" }}>
+                      Includes:
+                      {deviceEyeEnd.includes &&
+                        deviceEyeEnd.includes.map((item) => {
+                          return <div>{item}</div>;
+                        })}
+                    </div>
+                  </div>
                 </div>
-              </div>
+              )}
+          {deviceEyeEnd.model === "none" && (
+            <div className="resultItem">
+              <div style={{color:"#ff0000"}}>Eye end adapters are not available for this model.</div>
             </div>
           )}
         </div>
 
-        <div>
-
-        </div>
+        <div></div>
       </div>
     </div>
   );
