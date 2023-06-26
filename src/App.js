@@ -66,8 +66,8 @@ function App() {
                 <div style={{ fontSize: ".9rem" }}>
                   Includes:
                   {gripEyeEnd.includes &&
-                    gripEyeEnd.includes.map((item) => {
-                      return <div>{item}</div>;
+                    gripEyeEnd.includes.map((item, index) => {
+                      return <div key={index}>{item}</div>;
                     })}
                 </div>
               </div>
@@ -112,8 +112,8 @@ function App() {
                     <div style={{ fontSize: ".9rem" }}>
                       Includes:
                       {deviceEyeEnd.includes &&
-                        deviceEyeEnd.includes.map((item) => {
-                          return <div>{item}</div>;
+                        deviceEyeEnd.includes.map((item, index) => {
+                          return <div key={index}>{item}</div>;
                         })}
                     </div>
                   </div>
