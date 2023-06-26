@@ -27,6 +27,8 @@
 
 .selectLabel{
   font-size: .8rem;
+  font-weight: bold;
+  color: #525252;
   margin-bottom: 6px;
 }
 
