@@ -1,3 +1,6 @@
+// NOTE
+// https://medium.com/@lahiru0561/react-select-with-custom-label-and-custom-search-122bfe06b6d7
+
 import { useState } from "react";
 import Select from "react-select";
 
