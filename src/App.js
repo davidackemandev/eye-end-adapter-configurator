@@ -4,9 +4,6 @@ import Select from "react-select";
 import "./App.css";
 
 function App() {
-  const [selectedGrip, setSelectedGrip] = useState("");
-  const [selectedDevice, setSelectedDevice] = useState("");
-
   const [gripEyeEnd, setGripEyeEnd] = useState("");
   const [deviceEyeEnd, setDeviceEyeEnd] = useState("");
 
@@ -401,7 +398,7 @@ function App() {
           />
           {gripEyeEnd && (
             <div className="resultItem">
-              <img className="resultItemImage" src={gripEyeEnd.imgsrc} />
+              <img className="resultItemImage" src={gripEyeEnd.imgsrc} alt="" />
               <div className="resultItemText">
                 <strong>
                   {gripEyeEnd.model} - {gripEyeEnd.description}
@@ -447,7 +444,7 @@ function App() {
             deviceEyeEnd.model !==
               "none" && (
                 <div className="resultItem">
-                  <img className="resultItemImage" src={deviceEyeEnd.imgsrc} />
+                  <img className="resultItemImage" src={deviceEyeEnd.imgsrc} alt="" />
                   <div className="resultItemText">
                     <strong>
                       {deviceEyeEnd.model} - {deviceEyeEnd.description}
