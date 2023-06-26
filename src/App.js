@@ -11,18 +11,6 @@ function App() {
   const [gripEyeEnd, setGripEyeEnd] = useState("");
   const [deviceEyeEnd, setDeviceEyeEnd] = useState("");
 
-  // const eyeends = [
-  //   {model: 'G1081', description: 'Eye end, #10-32M', thread: '#10-32'},
-  //   {model: 'G1081-1', description: 'Eye end, 5/16-18M', thread: '5/16-18'},
-  //   {model: 'G1081-2', description: 'Eye end, 1/2-20M', thread: '1/2-20'},
-  //   {model: 'G1081-3', description: 'Eye end, 1/4-28M', thread: '1/4-28'},
-  //   {model: 'G1082', description: 'Eye end, #10-32F', thread: '#10-32', male: false},
-  //   {model: 'G1082-1', description: 'Eye end, 5/16-18F', thread: '5/16-18', male: false},
-  //   {model: 'G1083', description: 'Eye end adapter, #10-32M', thread: '#10-32', type: 'grip',},
-  //   {model: 'G1083-1', description: 'Eye end adapter, 5/16-18M', thread: '5/16-18', type: 'grip'},
-  //   {model: 'G1083-2', description: 'Eye end adapter, 1/2-20M', thread: '1/2-20', type: 'grip'}
-  // ]
-
   function onSelect(input, form) {
     if (form === "grips") {
       if (!input) {
