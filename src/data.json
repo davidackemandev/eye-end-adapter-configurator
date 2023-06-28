@@ -1,0 +1,1473 @@
+[
+    {
+      "TYPE": "grip",
+      "MODELNO": "G1003",
+      "DESCRIPTION": "Miniature Component Grip",
+      "THREAD": "#10-32F",
+      "EYEENDKIT": "AC1046"
+    },
+    {
+      "TYPE": "grip",
+      "MODELNO": "G1008",
+      "DESCRIPTION": "Film & paper grip",
+      "THREAD": "#10-32F",
+      "EYEENDKIT": "AC1046"
+    },
+    {
+      "TYPE": "grip",
+      "MODELNO": "G1015-1",
+      "DESCRIPTION": "Film & paper grip",
+      "THREAD": "#10-32F",
+      "EYEENDKIT": "AC1046"
+    },
+    {
+      "TYPE": "grip",
+      "MODELNO": "G1015-2",
+      "DESCRIPTION": "Film & paper grip",
+      "THREAD": "#10-32F",
+      "EYEENDKIT": "AC1046"
+    },
+    {
+      "TYPE": "grip",
+      "MODELNO": "G1015-3",
+      "DESCRIPTION": "Film & paper grip",
+      "THREAD": "#10-32F",
+      "EYEENDKIT": "AC1046"
+    },
+    {
+      "TYPE": "grip",
+      "MODELNO": "G1046",
+      "DESCRIPTION": "Pneumatic grip",
+      "THREAD": "#10-32F",
+      "EYEENDKIT": "AC1046"
+    },
+    {
+      "TYPE": "grip",
+      "MODELNO": "G1056",
+      "DESCRIPTION": "Multi-jaw Grip",
+      "THREAD": "#10-32F",
+      "EYEENDKIT": "AC1046"
+    },
+    {
+      "TYPE": "grip",
+      "MODELNO": "G1061",
+      "DESCRIPTION": "Wedge grip",
+      "THREAD": "1/2-20F",
+      "EYEENDKIT": "AC1046-2"
+    },
+    {
+      "TYPE": "grip",
+      "MODELNO": "G1061-1",
+      "DESCRIPTION": "Wedge grip",
+      "THREAD": "5/16-18F",
+      "EYEENDKIT": "AC1046-1"
+    },
+    {
+      "TYPE": "grip",
+      "MODELNO": "G1061-2",
+      "DESCRIPTION": "Wedge grip",
+      "THREAD": "1/2-20F",
+      "EYEENDKIT": "AC1046-2"
+    },
+    {
+      "TYPE": "grip",
+      "MODELNO": "G1061-3",
+      "DESCRIPTION": "Wedge grip",
+      "THREAD": "1/2-20F",
+      "EYEENDKIT": "AC1046-2"
+    },
+    {
+      "TYPE": "grip",
+      "MODELNO": "G1062",
+      "DESCRIPTION": "Miniature Wedge Grip",
+      "THREAD": "#10-32F",
+      "EYEENDKIT": "AC1046"
+    },
+    {
+      "TYPE": "grip",
+      "MODELNO": "G1071",
+      "DESCRIPTION": "Score bend fixture",
+      "THREAD": "5/16-18F",
+      "EYEENDKIT": "AC1046-1"
+    },
+    {
+      "TYPE": "grip",
+      "MODELNO": "G1072",
+      "DESCRIPTION": "Opening force fixture",
+      "THREAD": "5/16-18F",
+      "EYEENDKIT": "AC1046-1"
+    },
+    {
+      "TYPE": "grip",
+      "MODELNO": "G1077",
+      "DESCRIPTION": "Clevis grip",
+      "THREAD": "5/16-18F",
+      "EYEENDKIT": "AC1046-1"
+    },
+    {
+      "TYPE": "grip",
+      "MODELNO": "G1086",
+      "DESCRIPTION": "Coefficient of friction fixture",
+      "EYEENDKIT": "none"
+    },
+    {
+      "TYPE": "grip",
+      "MODELNO": "G1090",
+      "DESCRIPTION": "High capacity clevis grip",
+      "EYEENDKIT": "integrated"
+    },
+    {
+      "TYPE": "grip",
+      "MODELNO": "G1098",
+      "DESCRIPTION": "Loop tack fixture",
+      "THREAD": "5/16-18F",
+      "EYEENDKIT": "AC1046-1"
+    },
+    {
+      "TYPE": "grip",
+      "MODELNO": "G1104",
+      "DESCRIPTION": "Flip cap pull grip",
+      "THREAD": "#10-32F",
+      "EYEENDKIT": "AC1046"
+    },
+    {
+      "TYPE": "grip",
+      "MODELNO": "G1105",
+      "DESCRIPTION": "Cork pull fixture",
+      "THREAD": "1/2-20F",
+      "EYEENDKIT": "AC1046-2"
+    },
+    {
+      "TYPE": "grip",
+      "MODELNO": "G1109",
+      "DESCRIPTION": "90° peel fixture",
+      "THREAD": "1/2-20F",
+      "EYEENDKIT": "AC1046-2"
+    },
+    {
+      "TYPE": "grip",
+      "MODELNO": "G1111",
+      "DESCRIPTION": "Ribbon wrap grip",
+      "EYEENDKIT": "integrated"
+    },
+    {
+      "TYPE": "grip",
+      "MODELNO": "G1013",
+      "DESCRIPTION": "Parallel jaw grip",
+      "THREAD": "5/16-18F",
+      "EYEENDKIT": "AC1046-1"
+    },
+    {
+      "TYPE": "grip",
+      "MODELNO": "G1101",
+      "DESCRIPTION": "Parallel jaw grip",
+      "EYEENDKIT": "integrated"
+    },
+    {
+      "TYPE": "grip",
+      "MODELNO": "G1100",
+      "DESCRIPTION": "Parallel jaw grip",
+      "EYEENDKIT": "integrated"
+    },
+    {
+      "TYPE": "grip",
+      "MODELNO": "G1074",
+      "DESCRIPTION": "Vise grip, standard",
+      "EYEENDKIT": "none"
+    },
+    {
+      "TYPE": "grip",
+      "MODELNO": "G1106",
+      "DESCRIPTION": "Vise grip, self-centering",
+      "EYEENDKIT": "none"
+    },
+    {
+      "TYPE": "grip",
+      "MODELNO": "G1001",
+      "DESCRIPTION": "Wire terminal grip",
+      "THREAD": "5/16-18F",
+      "EYEENDKIT": "AC1046-1"
+    },
+    {
+      "TYPE": "grip",
+      "MODELNO": "G1001-1",
+      "DESCRIPTION": "Wire terminal grip",
+      "THREAD": "5/16-18F",
+      "EYEENDKIT": "AC1046-1"
+    },
+    {
+      "TYPE": "grip",
+      "MODELNO": "G1001-2",
+      "DESCRIPTION": "Wire terminal grip",
+      "THREAD": "5/16-18F",
+      "EYEENDKIT": "AC1046-1"
+    },
+    {
+      "TYPE": "grip",
+      "MODELNO": "G1076",
+      "DESCRIPTION": "Wire terminal grip",
+      "THREAD": "5/16-18F",
+      "EYEENDKIT": "AC1046-1"
+    },
+    {
+      "TYPE": "grip",
+      "MODELNO": "G1093",
+      "DESCRIPTION": "High capacity wire terminal grip",
+      "EYEENDKIT": "integrated"
+    },
+    {
+      "TYPE": "grip",
+      "MODELNO": "G1002",
+      "DESCRIPTION": "Dual roller grip",
+      "THREAD": "#10-32F",
+      "EYEENDKIT": "AC1046"
+    },
+    {
+      "TYPE": "grip",
+      "MODELNO": "G1002-1",
+      "DESCRIPTION": "Dual roller grip",
+      "THREAD": "#10-32F",
+      "EYEENDKIT": "AC1046"
+    },
+    {
+      "TYPE": "grip",
+      "MODELNO": "G1085",
+      "DESCRIPTION": "Adjustable dual roller grip",
+      "THREAD": "5/16-18F",
+      "EYEENDKIT": "AC1046-1"
+    },
+    {
+      "TYPE": "grip",
+      "MODELNO": "G1078",
+      "DESCRIPTION": "Miniature filament grip",
+      "THREAD": "#10-32F",
+      "EYEENDKIT": "AC1046"
+    },
+    {
+      "TYPE": "grip",
+      "MODELNO": "G1103",
+      "DESCRIPTION": "Wire / rope grip, medium",
+      "EYEENDKIT": "integrated"
+    },
+    {
+      "TYPE": "grip",
+      "MODELNO": "G1102",
+      "DESCRIPTION": "Wire / rope grip, large",
+      "EYEENDKIT": "integrated"
+    },
+    {
+      "TYPE": "grip",
+      "MODELNO": "G1092",
+      "DESCRIPTION": "High capacity wire / rope grip",
+      "EYEENDKIT": "integrated"
+    },
+    {
+      "TYPE": "grip",
+      "MODELNO": "G1094",
+      "DESCRIPTION": "High capacity eccentric roller grip",
+      "EYEENDKIT": "integrated"
+    },
+    {
+      "TYPE": "grip",
+      "MODELNO": "G1009",
+      "DESCRIPTION": "Compression plate",
+      "THREAD": "#10-32F",
+      "EYEENDKIT": "AC1046"
+    },
+    {
+      "TYPE": "grip",
+      "MODELNO": "G1009-1",
+      "DESCRIPTION": "Compression plate",
+      "THREAD": "5/16-18F",
+      "EYEENDKIT": "AC1046-1"
+    },
+    {
+      "TYPE": "grip",
+      "MODELNO": "G1009-2",
+      "DESCRIPTION": "Compression plate",
+      "THREAD": "#10-32F",
+      "EYEENDKIT": "AC1046"
+    },
+    {
+      "TYPE": "grip",
+      "MODELNO": "G1009-3",
+      "DESCRIPTION": "Compression plate",
+      "THREAD": "5/16-18F",
+      "EYEENDKIT": "AC1046-1"
+    },
+    {
+      "TYPE": "grip",
+      "MODELNO": "G1087",
+      "DESCRIPTION": "Compression plate",
+      "EYEENDKIT": "integrated"
+    },
+    {
+      "TYPE": "grip",
+      "MODELNO": "G1087-1",
+      "DESCRIPTION": "Compression plate",
+      "EYEENDKIT": "integrated"
+    },
+    {
+      "TYPE": "grip",
+      "MODELNO": "G1123",
+      "DESCRIPTION": "Compression plate, self leveling",
+      "EYEENDKIT": "integrated"
+    },
+    {
+      "TYPE": "grip",
+      "MODELNO": "G1095",
+      "DESCRIPTION": "Bend fixture base",
+      "EYEENDKIT": "integrated"
+    },
+    {
+      "TYPE": "grip",
+      "MODELNO": "G1096",
+      "DESCRIPTION": "Bend fixture base",
+      "EYEENDKIT": "integrated"
+    },
+    {
+      "TYPE": "grip",
+      "MODELNO": "G1097",
+      "DESCRIPTION": "Upper anvil",
+      "EYEENDKIT": "integrated"
+    },
+    {
+      "TYPE": "grip",
+      "MODELNO": "G1010-1",
+      "DESCRIPTION": "Jacobs chuck pin vise",
+      "THREAD": "#10-32F",
+      "EYEENDKIT": "AC1046"
+    },
+    {
+      "TYPE": "grip",
+      "MODELNO": "G1010",
+      "DESCRIPTION": "Jacobs chuck pin vise",
+      "THREAD": "#10-32F",
+      "EYEENDKIT": "AC1046"
+    },
+    {
+      "TYPE": "grip",
+      "MODELNO": "G1010-2",
+      "DESCRIPTION": "Jacobs chuck pin vise",
+      "THREAD": "#10-32F",
+      "EYEENDKIT": "AC1046"
+    },
+    {
+      "TYPE": "grip",
+      "MODELNO": "G1019",
+      "DESCRIPTION": "Padded attachment, square",
+      "THREAD": "5/16-18F",
+      "EYEENDKIT": "AC1046-1"
+    },
+    {
+      "TYPE": "grip",
+      "MODELNO": "G1020",
+      "DESCRIPTION": "Padded attachment, rectangular",
+      "THREAD": "5/16-18F",
+      "EYEENDKIT": "AC1046-1"
+    },
+    {
+      "TYPE": "grip",
+      "MODELNO": "G1021",
+      "DESCRIPTION": "Padded attachment, curved",
+      "THREAD": "5/16-18F",
+      "EYEENDKIT": "AC1046-1"
+    },
+    {
+      "TYPE": "grip",
+      "MODELNO": "G1112",
+      "DESCRIPTION": "Padded attachment, circular",
+      "THREAD": "5/16-18F",
+      "EYEENDKIT": "AC1046-1"
+    },
+    {
+      "TYPE": "grip",
+      "MODELNO": "G1011",
+      "DESCRIPTION": "Rubber tip",
+      "THREAD": "#10-32F",
+      "EYEENDKIT": "AC1046"
+    },
+    {
+      "TYPE": "grip",
+      "MODELNO": "G1089",
+      "DESCRIPTION": "Syringe fixture",
+      "THREAD": "5/16-18F",
+      "EYEENDKIT": "AC1046-1"
+    },
+    {
+      "TYPE": "grip",
+      "MODELNO": "G1110",
+      "DESCRIPTION": "Puncture fixture",
+      "EYEENDKIT": "integrated"
+    },
+    {
+      "TYPE": "grip",
+      "MODELNO": "G1023",
+      "DESCRIPTION": "Bottle grip",
+      "EYEENDKIT": "none"
+    },
+    {
+      "TYPE": "grip",
+      "MODELNO": "G1053",
+      "DESCRIPTION": "Universal V-Jaw grip",
+      "THREAD": "#10-32F",
+      "EYEENDKIT": "AC1046"
+    },
+    {
+      "TYPE": "grip",
+      "MODELNO": "G1058",
+      "DESCRIPTION": "Universal cap grip",
+      "THREAD": "#10-32F",
+      "EYEENDKIT": "AC1046"
+    },
+    {
+      "TYPE": "grip",
+      "MODELNO": "G1028",
+      "DESCRIPTION": "Small hook",
+      "EYEENDKIT": "none"
+    },
+    {
+      "TYPE": "grip",
+      "MODELNO": "G1035",
+      "DESCRIPTION": "Medium hook",
+      "EYEENDKIT": "none"
+    },
+    {
+      "TYPE": "grip",
+      "MODELNO": "G1038",
+      "DESCRIPTION": "Large hook",
+      "EYEENDKIT": "none"
+    },
+    {
+      "TYPE": "grip",
+      "MODELNO": "G1042",
+      "DESCRIPTION": "Extra-large hook",
+      "EYEENDKIT": "none"
+    },
+    {
+      "TYPE": "grip",
+      "MODELNO": "G1107",
+      "DESCRIPTION": "Snap hook",
+      "EYEENDKIT": "none"
+    },
+    {
+      "TYPE": "grip",
+      "MODELNO": "G1029",
+      "DESCRIPTION": "Flat head",
+      "EYEENDKIT": "none"
+    },
+    {
+      "TYPE": "grip",
+      "MODELNO": "G1036",
+      "DESCRIPTION": "Flat head",
+      "EYEENDKIT": "none"
+    },
+    {
+      "TYPE": "grip",
+      "MODELNO": "G1024",
+      "DESCRIPTION": "Extension rod",
+      "EYEENDKIT": "none"
+    },
+    {
+      "TYPE": "grip",
+      "MODELNO": "G1024-1",
+      "DESCRIPTION": "Extension rod",
+      "EYEENDKIT": "none"
+    },
+    {
+      "TYPE": "grip",
+      "MODELNO": "G1024-2",
+      "DESCRIPTION": "Extension rod",
+      "EYEENDKIT": "none"
+    },
+    {
+      "TYPE": "grip",
+      "MODELNO": "G1031",
+      "DESCRIPTION": "Extension rod",
+      "EYEENDKIT": "none"
+    },
+    {
+      "TYPE": "grip",
+      "MODELNO": "G1031-1",
+      "DESCRIPTION": "Extension rod",
+      "EYEENDKIT": "none"
+    },
+    {
+      "TYPE": "grip",
+      "MODELNO": "G1031-2",
+      "DESCRIPTION": "Extension rod",
+      "EYEENDKIT": "none"
+    },
+    {
+      "TYPE": "grip",
+      "MODELNO": "G1025",
+      "DESCRIPTION": "Chisel point",
+      "EYEENDKIT": "none"
+    },
+    {
+      "TYPE": "grip",
+      "MODELNO": "G1032",
+      "DESCRIPTION": "Chisel point",
+      "EYEENDKIT": "none"
+    },
+    {
+      "TYPE": "grip",
+      "MODELNO": "G1026",
+      "DESCRIPTION": "Cone point",
+      "EYEENDKIT": "none"
+    },
+    {
+      "TYPE": "grip",
+      "MODELNO": "G1033",
+      "DESCRIPTION": "Cone point",
+      "EYEENDKIT": "none"
+    },
+    {
+      "TYPE": "grip",
+      "MODELNO": "G1027",
+      "DESCRIPTION": "V-groove",
+      "EYEENDKIT": "none"
+    },
+    {
+      "TYPE": "grip",
+      "MODELNO": "G1034",
+      "DESCRIPTION": "V-groove",
+      "EYEENDKIT": "none"
+    },
+    {
+      "TYPE": "grip",
+      "MODELNO": "G1018-1",
+      "DESCRIPTION": "Swivel adapter",
+      "EYEENDKIT": "none"
+    },
+    {
+      "TYPE": "grip",
+      "MODELNO": "G1018-2",
+      "DESCRIPTION": "Swivel adapter",
+      "EYEENDKIT": "none"
+    },
+    {
+      "TYPE": "gauge",
+      "MODELNO": "M2-2",
+      "DESCRIPTION": "Force gauge",
+      "THREAD": "#10-32M",
+      "EYEENDKIT": "AC1045"
+    },
+    {
+      "TYPE": "gauge",
+      "MODELNO": "M2-5",
+      "DESCRIPTION": "Force gauge",
+      "THREAD": "#10-32M",
+      "EYEENDKIT": "AC1045"
+    },
+    {
+      "TYPE": "gauge",
+      "MODELNO": "M2-10",
+      "DESCRIPTION": "Force gauge",
+      "THREAD": "#10-32M",
+      "EYEENDKIT": "AC1045"
+    },
+    {
+      "TYPE": "gauge",
+      "MODELNO": "M2-20",
+      "DESCRIPTION": "Force gauge",
+      "THREAD": "#10-32M",
+      "EYEENDKIT": "AC1045"
+    },
+    {
+      "TYPE": "gauge",
+      "MODELNO": "M2-50",
+      "DESCRIPTION": "Force gauge",
+      "THREAD": "#10-32M",
+      "EYEENDKIT": "AC1045"
+    },
+    {
+      "TYPE": "gauge",
+      "MODELNO": "M2-100",
+      "DESCRIPTION": "Force gauge",
+      "THREAD": "#10-32M",
+      "EYEENDKIT": "AC1045"
+    },
+    {
+      "TYPE": "gauge",
+      "MODELNO": "M2-200",
+      "DESCRIPTION": "Force gauge",
+      "THREAD": "5/16-18M",
+      "EYEENDKIT": "AC1045-1"
+    },
+    {
+      "TYPE": "gauge",
+      "MODELNO": "M2-500",
+      "DESCRIPTION": "Force gauge",
+      "THREAD": "5/16-18M",
+      "EYEENDKIT": "AC1045-1"
+    },
+    {
+      "TYPE": "gauge",
+      "MODELNO": "M3-012",
+      "DESCRIPTION": "Force gauge",
+      "THREAD": "#10-32M",
+      "EYEENDKIT": "AC1045"
+    },
+    {
+      "TYPE": "gauge",
+      "MODELNO": "M3-025",
+      "DESCRIPTION": "Force gauge",
+      "THREAD": "#10-32M",
+      "EYEENDKIT": "AC1045"
+    },
+    {
+      "TYPE": "gauge",
+      "MODELNO": "M3-05",
+      "DESCRIPTION": "Force gauge",
+      "THREAD": "#10-32M",
+      "EYEENDKIT": "AC1045"
+    },
+    {
+      "TYPE": "gauge",
+      "MODELNO": "M3-2",
+      "DESCRIPTION": "Force gauge",
+      "THREAD": "#10-32M",
+      "EYEENDKIT": "AC1045"
+    },
+    {
+      "TYPE": "gauge",
+      "MODELNO": "M3-5",
+      "DESCRIPTION": "Force gauge",
+      "THREAD": "#10-32M",
+      "EYEENDKIT": "AC1045"
+    },
+    {
+      "TYPE": "gauge",
+      "MODELNO": "M3-10",
+      "DESCRIPTION": "Force gauge",
+      "THREAD": "#10-32M",
+      "EYEENDKIT": "AC1045"
+    },
+    {
+      "TYPE": "gauge",
+      "MODELNO": "M3-20",
+      "DESCRIPTION": "Force gauge",
+      "THREAD": "#10-32M",
+      "EYEENDKIT": "AC1045"
+    },
+    {
+      "TYPE": "gauge",
+      "MODELNO": "M3-50",
+      "DESCRIPTION": "Force gauge",
+      "THREAD": "#10-32M",
+      "EYEENDKIT": "AC1045"
+    },
+    {
+      "TYPE": "gauge",
+      "MODELNO": "M3-100",
+      "DESCRIPTION": "Force gauge",
+      "THREAD": "#10-32M",
+      "EYEENDKIT": "AC1045"
+    },
+    {
+      "TYPE": "gauge",
+      "MODELNO": "M3-200",
+      "DESCRIPTION": "Force gauge",
+      "THREAD": "5/16-18M",
+      "EYEENDKIT": "AC1045-1"
+    },
+    {
+      "TYPE": "gauge",
+      "MODELNO": "M3-500",
+      "DESCRIPTION": "Force gauge",
+      "THREAD": "5/16-18M",
+      "EYEENDKIT": "AC1045-1"
+    },
+    {
+      "TYPE": "gauge",
+      "MODELNO": "M4-012",
+      "DESCRIPTION": "Force gauge",
+      "THREAD": "#10-32M",
+      "EYEENDKIT": "AC1045"
+    },
+    {
+      "TYPE": "gauge",
+      "MODELNO": "M4-025",
+      "DESCRIPTION": "Force gauge",
+      "THREAD": "#10-32M",
+      "EYEENDKIT": "AC1045"
+    },
+    {
+      "TYPE": "gauge",
+      "MODELNO": "M4-05",
+      "DESCRIPTION": "Force gauge",
+      "THREAD": "#10-32M",
+      "EYEENDKIT": "AC1045"
+    },
+    {
+      "TYPE": "gauge",
+      "MODELNO": "M4-2",
+      "DESCRIPTION": "Force gauge",
+      "THREAD": "#10-32M",
+      "EYEENDKIT": "AC1045"
+    },
+    {
+      "TYPE": "gauge",
+      "MODELNO": "M4-5",
+      "DESCRIPTION": "Force gauge",
+      "THREAD": "#10-32M",
+      "EYEENDKIT": "AC1045"
+    },
+    {
+      "TYPE": "gauge",
+      "MODELNO": "M4-10",
+      "DESCRIPTION": "Force gauge",
+      "THREAD": "#10-32M",
+      "EYEENDKIT": "AC1045"
+    },
+    {
+      "TYPE": "gauge",
+      "MODELNO": "M4-20",
+      "DESCRIPTION": "Force gauge",
+      "THREAD": "#10-32M",
+      "EYEENDKIT": "AC1045"
+    },
+    {
+      "TYPE": "gauge",
+      "MODELNO": "M4-50",
+      "DESCRIPTION": "Force gauge",
+      "THREAD": "#10-32M",
+      "EYEENDKIT": "AC1045"
+    },
+    {
+      "TYPE": "gauge",
+      "MODELNO": "M4-100",
+      "DESCRIPTION": "Force gauge",
+      "THREAD": "#10-32M",
+      "EYEENDKIT": "AC1045"
+    },
+    {
+      "TYPE": "gauge",
+      "MODELNO": "M4-200",
+      "DESCRIPTION": "Force gauge",
+      "THREAD": "5/16-18M",
+      "EYEENDKIT": "AC1045-1"
+    },
+    {
+      "TYPE": "gauge",
+      "MODELNO": "M4-500",
+      "DESCRIPTION": "Force gauge",
+      "THREAD": "5/16-18M",
+      "EYEENDKIT": "AC1045-1"
+    },
+    {
+      "TYPE": "gauge",
+      "MODELNO": "M5-012",
+      "DESCRIPTION": "Force gauge",
+      "THREAD": "#10-32M",
+      "EYEENDKIT": "AC1045"
+    },
+    {
+      "TYPE": "gauge",
+      "MODELNO": "M5-025",
+      "DESCRIPTION": "Force gauge",
+      "THREAD": "#10-32M",
+      "EYEENDKIT": "AC1045"
+    },
+    {
+      "TYPE": "gauge",
+      "MODELNO": "M5-05",
+      "DESCRIPTION": "Force gauge",
+      "THREAD": "#10-32M",
+      "EYEENDKIT": "AC1045"
+    },
+    {
+      "TYPE": "gauge",
+      "MODELNO": "M5-2",
+      "DESCRIPTION": "Force gauge",
+      "THREAD": "#10-32M",
+      "EYEENDKIT": "AC1045"
+    },
+    {
+      "TYPE": "gauge",
+      "MODELNO": "M5-5",
+      "DESCRIPTION": "Force gauge",
+      "THREAD": "#10-32M",
+      "EYEENDKIT": "AC1045"
+    },
+    {
+      "TYPE": "gauge",
+      "MODELNO": "M5-10",
+      "DESCRIPTION": "Force gauge",
+      "THREAD": "#10-32M",
+      "EYEENDKIT": "AC1045"
+    },
+    {
+      "TYPE": "gauge",
+      "MODELNO": "M5-20",
+      "DESCRIPTION": "Force gauge",
+      "THREAD": "#10-32M",
+      "EYEENDKIT": "AC1045"
+    },
+    {
+      "TYPE": "gauge",
+      "MODELNO": "M5-50",
+      "DESCRIPTION": "Force gauge",
+      "THREAD": "#10-32M",
+      "EYEENDKIT": "AC1045"
+    },
+    {
+      "TYPE": "gauge",
+      "MODELNO": "M5-100",
+      "DESCRIPTION": "Force gauge",
+      "THREAD": "#10-32M",
+      "EYEENDKIT": "AC1045"
+    },
+    {
+      "TYPE": "gauge",
+      "MODELNO": "M5-200",
+      "DESCRIPTION": "Force gauge",
+      "THREAD": "5/16-18M",
+      "EYEENDKIT": "AC1045-1"
+    },
+    {
+      "TYPE": "gauge",
+      "MODELNO": "M5-300",
+      "DESCRIPTION": "Force gauge",
+      "THREAD": "5/16-18M",
+      "EYEENDKIT": "AC1045-1"
+    },
+    {
+      "TYPE": "gauge",
+      "MODELNO": "M5-500",
+      "DESCRIPTION": "Force gauge",
+      "THREAD": "5/16-18M",
+      "EYEENDKIT": "AC1045-1"
+    },
+    {
+      "TYPE": "gauge",
+      "MODELNO": "M5-750",
+      "DESCRIPTION": "Force gauge",
+      "THREAD": "1/2-20F",
+      "EYEENDKIT": "AC1045-2"
+    },
+    {
+      "TYPE": "gauge",
+      "MODELNO": "M5-1000",
+      "DESCRIPTION": "Force gauge",
+      "THREAD": "1/2-20F",
+      "EYEENDKIT": "AC1045-2"
+    },
+    {
+      "TYPE": "gauge",
+      "MODELNO": "M5-1500",
+      "DESCRIPTION": "Force gauge",
+      "THREAD": "1/2-20F",
+      "EYEENDKIT": "AC1045-2"
+    },
+    {
+      "TYPE": "gauge",
+      "MODELNO": "M5-2000",
+      "DESCRIPTION": "Force gauge",
+      "THREAD": "1/2-20F",
+      "EYEENDKIT": "AC1045-2"
+    },
+    {
+      "TYPE": "gauge",
+      "MODELNO": "M7-012",
+      "DESCRIPTION": "Force gauge",
+      "THREAD": "#10-32M",
+      "EYEENDKIT": "AC1045"
+    },
+    {
+      "TYPE": "gauge",
+      "MODELNO": "M7-025",
+      "DESCRIPTION": "Force gauge",
+      "THREAD": "#10-32M",
+      "EYEENDKIT": "AC1045"
+    },
+    {
+      "TYPE": "gauge",
+      "MODELNO": "M7-05",
+      "DESCRIPTION": "Force gauge",
+      "THREAD": "#10-32M",
+      "EYEENDKIT": "AC1045"
+    },
+    {
+      "TYPE": "gauge",
+      "MODELNO": "M7-2",
+      "DESCRIPTION": "Force gauge",
+      "THREAD": "#10-32M",
+      "EYEENDKIT": "AC1045"
+    },
+    {
+      "TYPE": "gauge",
+      "MODELNO": "M7-5",
+      "DESCRIPTION": "Force gauge",
+      "THREAD": "#10-32M",
+      "EYEENDKIT": "AC1045"
+    },
+    {
+      "TYPE": "gauge",
+      "MODELNO": "M7-10",
+      "DESCRIPTION": "Force gauge",
+      "THREAD": "#10-32M",
+      "EYEENDKIT": "AC1045"
+    },
+    {
+      "TYPE": "gauge",
+      "MODELNO": "M7-20",
+      "DESCRIPTION": "Force gauge",
+      "THREAD": "#10-32M",
+      "EYEENDKIT": "AC1045"
+    },
+    {
+      "TYPE": "gauge",
+      "MODELNO": "M7-50",
+      "DESCRIPTION": "Force gauge",
+      "THREAD": "#10-32M",
+      "EYEENDKIT": "AC1045"
+    },
+    {
+      "TYPE": "gauge",
+      "MODELNO": "M7-100",
+      "DESCRIPTION": "Force gauge",
+      "THREAD": "#10-32M",
+      "EYEENDKIT": "AC1045"
+    },
+    {
+      "TYPE": "gauge",
+      "MODELNO": "M7-200",
+      "DESCRIPTION": "Force gauge",
+      "THREAD": "5/16-18M",
+      "EYEENDKIT": "AC1045-1"
+    },
+    {
+      "TYPE": "gauge",
+      "MODELNO": "M7-500",
+      "DESCRIPTION": "Force gauge",
+      "THREAD": "5/16-18M",
+      "EYEENDKIT": "AC1045-1"
+    },
+    {
+      "TYPE": "sensor",
+      "MODELNO": "MR01-50",
+      "DESCRIPTION": "Force sensor",
+      "THREAD": "1/4-28F",
+      "EYEENDKIT": "AC1047-3"
+    },
+    {
+      "TYPE": "sensor",
+      "MODELNO": "MR01-100",
+      "DESCRIPTION": "Force sensor",
+      "THREAD": "1/4-28F",
+      "EYEENDKIT": "AC1047-3"
+    },
+    {
+      "TYPE": "sensor",
+      "MODELNO": "MR01-200",
+      "DESCRIPTION": "Force sensor",
+      "THREAD": "1/4-28F",
+      "EYEENDKIT": "AC1047-3"
+    },
+    {
+      "TYPE": "sensor",
+      "MODELNO": "MR01-300",
+      "DESCRIPTION": "Force sensor",
+      "THREAD": "1/2-20F",
+      "EYEENDKIT": "AC1047-2"
+    },
+    {
+      "TYPE": "sensor",
+      "MODELNO": "MR01-500",
+      "DESCRIPTION": "Force sensor",
+      "THREAD": "1/2-20F",
+      "EYEENDKIT": "AC1047-2"
+    },
+    {
+      "TYPE": "sensor",
+      "MODELNO": "MR01-750",
+      "DESCRIPTION": "Force sensor",
+      "THREAD": "1/2-20F",
+      "EYEENDKIT": "AC1047-2"
+    },
+    {
+      "TYPE": "sensor",
+      "MODELNO": "MR01-1000",
+      "DESCRIPTION": "Force sensor",
+      "THREAD": "1/2-20F",
+      "EYEENDKIT": "AC1047-2"
+    },
+    {
+      "TYPE": "sensor",
+      "MODELNO": "MR01-1500",
+      "DESCRIPTION": "Force sensor",
+      "THREAD": "1/2-20F",
+      "EYEENDKIT": "AC1047-2"
+    },
+    {
+      "TYPE": "sensor",
+      "MODELNO": "MR01-2000",
+      "DESCRIPTION": "Force sensor",
+      "THREAD": "1/2-20F",
+      "EYEENDKIT": "AC1047-2"
+    },
+    {
+      "TYPE": "sensor",
+      "MODELNO": "MR01-5000",
+      "DESCRIPTION": "Force sensor",
+      "THREAD": "3/4-16F",
+      "EYEENDKIT": "none"
+    },
+    {
+      "TYPE": "sensor",
+      "MODELNO": "MR01-10000",
+      "DESCRIPTION": "Force sensor",
+      "THREAD": "3/4-16F",
+      "EYEENDKIT": "none"
+    },
+    {
+      "TYPE": "sensor",
+      "MODELNO": "MR03-025",
+      "DESCRIPTION": "Force sensor",
+      "THREAD": "#10-32M",
+      "EYEENDKIT": "AC1047-4"
+    },
+    {
+      "TYPE": "sensor",
+      "MODELNO": "MR03-05",
+      "DESCRIPTION": "Force sensor",
+      "THREAD": "#10-32M",
+      "EYEENDKIT": "AC1047-4"
+    },
+    {
+      "TYPE": "sensor",
+      "MODELNO": "MR03-2",
+      "DESCRIPTION": "Force sensor",
+      "THREAD": "#10-32M",
+      "EYEENDKIT": "AC1047-4"
+    },
+    {
+      "TYPE": "sensor",
+      "MODELNO": "MR03-5",
+      "DESCRIPTION": "Force sensor",
+      "THREAD": "#10-32M",
+      "EYEENDKIT": "AC1047-4"
+    },
+    {
+      "TYPE": "sensor",
+      "MODELNO": "MR03-10",
+      "DESCRIPTION": "Force sensor",
+      "THREAD": "#10-32M",
+      "EYEENDKIT": "AC1047-4"
+    },
+    {
+      "TYPE": "sensor",
+      "MODELNO": "MR03-20",
+      "DESCRIPTION": "Force sensor",
+      "THREAD": "#10-32M",
+      "EYEENDKIT": "AC1047-4"
+    },
+    {
+      "TYPE": "sensor",
+      "MODELNO": "MR03-50",
+      "DESCRIPTION": "Force sensor",
+      "THREAD": "#10-32M",
+      "EYEENDKIT": "AC1047-4"
+    },
+    {
+      "TYPE": "sensor",
+      "MODELNO": "MR03-100",
+      "DESCRIPTION": "Force sensor",
+      "THREAD": "#10-32M",
+      "EYEENDKIT": "AC1047-4"
+    },
+    {
+      "TYPE": "sensor",
+      "MODELNO": "MR07-50",
+      "DESCRIPTION": "Force sensor",
+      "THREAD": "1/4-28F",
+      "EYEENDKIT": "AC1047-3"
+    },
+    {
+      "TYPE": "sensor",
+      "MODELNO": "MR07-100",
+      "DESCRIPTION": "Force sensor",
+      "THREAD": "1/4-28F",
+      "EYEENDKIT": "AC1047-3"
+    },
+    {
+      "TYPE": "sensor",
+      "MODELNO": "MR07-200",
+      "DESCRIPTION": "Force sensor",
+      "THREAD": "1/4-28F",
+      "EYEENDKIT": "AC1047-3"
+    },
+    {
+      "TYPE": "sensor",
+      "MODELNO": "MR07-300",
+      "DESCRIPTION": "Force sensor",
+      "THREAD": "1/2-20F",
+      "EYEENDKIT": "AC1047-2"
+    },
+    {
+      "TYPE": "sensor",
+      "MODELNO": "MR07-500",
+      "DESCRIPTION": "Force sensor",
+      "THREAD": "1/2-20F",
+      "EYEENDKIT": "AC1047-2"
+    },
+    {
+      "TYPE": "sensor",
+      "MODELNO": "MR07-750",
+      "DESCRIPTION": "Force sensor",
+      "THREAD": "1/2-20F",
+      "EYEENDKIT": "AC1047-2"
+    },
+    {
+      "TYPE": "sensor",
+      "MODELNO": "MR07-1000",
+      "DESCRIPTION": "Force sensor",
+      "THREAD": "1/2-20F",
+      "EYEENDKIT": "AC1047-2"
+    },
+    {
+      "TYPE": "sensor",
+      "MODELNO": "MR07-1500",
+      "DESCRIPTION": "Force sensor",
+      "THREAD": "1/2-20F",
+      "EYEENDKIT": "AC1047-2"
+    },
+    {
+      "TYPE": "sensor",
+      "MODELNO": "FS05-012 ",
+      "DESCRIPTION": "Force sensor",
+      "THREAD": "#10-32M",
+      "EYEENDKIT": "AC1045"
+    },
+    {
+      "TYPE": "sensor",
+      "MODELNO": "FS05-025 ",
+      "DESCRIPTION": "Force sensor",
+      "THREAD": "#10-32M",
+      "EYEENDKIT": "AC1045"
+    },
+    {
+      "TYPE": "sensor",
+      "MODELNO": "FS05-05 ",
+      "DESCRIPTION": "Force sensor",
+      "THREAD": "#10-32M",
+      "EYEENDKIT": "AC1045"
+    },
+    {
+      "TYPE": "sensor",
+      "MODELNO": "FS05-2 ",
+      "DESCRIPTION": "Force sensor",
+      "THREAD": "#10-32M",
+      "EYEENDKIT": "AC1045"
+    },
+    {
+      "TYPE": "sensor",
+      "MODELNO": "FS05-5 ",
+      "DESCRIPTION": "Force sensor",
+      "THREAD": "#10-32M",
+      "EYEENDKIT": "AC1045"
+    },
+    {
+      "TYPE": "sensor",
+      "MODELNO": "FS05-10 ",
+      "DESCRIPTION": "Force sensor",
+      "THREAD": "#10-32M",
+      "EYEENDKIT": "AC1045"
+    },
+    {
+      "TYPE": "sensor",
+      "MODELNO": "FS05-20 ",
+      "DESCRIPTION": "Force sensor",
+      "THREAD": "#10-32M",
+      "EYEENDKIT": "AC1045"
+    },
+    {
+      "TYPE": "sensor",
+      "MODELNO": "FS05-50 ",
+      "DESCRIPTION": "Force sensor",
+      "THREAD": "#10-32M",
+      "EYEENDKIT": "AC1045"
+    },
+    {
+      "TYPE": "sensor",
+      "MODELNO": "FS05-100 ",
+      "DESCRIPTION": "Force sensor",
+      "THREAD": "#10-32M",
+      "EYEENDKIT": "AC1045"
+    },
+    {
+      "TYPE": "sensor",
+      "MODELNO": "FS05-200 ",
+      "DESCRIPTION": "Force sensor",
+      "THREAD": "5/16-18M",
+      "EYEENDKIT": "AC1045-1"
+    },
+    {
+      "TYPE": "sensor",
+      "MODELNO": "FS05-300 ",
+      "DESCRIPTION": "Force sensor",
+      "THREAD": "5/16-18M",
+      "EYEENDKIT": "AC1045-1"
+    },
+    {
+      "TYPE": "sensor",
+      "MODELNO": "FS05-500 ",
+      "DESCRIPTION": "Force sensor",
+      "THREAD": "5/16-18M",
+      "EYEENDKIT": "AC1045-1"
+    },
+    {
+      "TYPE": "sensor",
+      "MODELNO": "FS06-50",
+      "DESCRIPTION": "Force sensor",
+      "THREAD": "1/4-28F",
+      "EYEENDKIT": "AC1047-3"
+    },
+    {
+      "TYPE": "sensor",
+      "MODELNO": "FS06-100",
+      "DESCRIPTION": "Force sensor",
+      "THREAD": "1/4-28F",
+      "EYEENDKIT": "AC1047-3"
+    },
+    {
+      "TYPE": "sensor",
+      "MODELNO": "FS06-200",
+      "DESCRIPTION": "Force sensor",
+      "THREAD": "1/4-28F",
+      "EYEENDKIT": "AC1047-3"
+    },
+    {
+      "TYPE": "sensor",
+      "MODELNO": "FS06-300",
+      "DESCRIPTION": "Force sensor",
+      "THREAD": "1/2-20F",
+      "EYEENDKIT": "AC1047-2"
+    },
+    {
+      "TYPE": "sensor",
+      "MODELNO": "FS06-500",
+      "DESCRIPTION": "Force sensor",
+      "THREAD": "1/2-20F",
+      "EYEENDKIT": "AC1047-2"
+    },
+    {
+      "TYPE": "test stand",
+      "MODELNO": "ES05",
+      "DESCRIPTION": "Test stand",
+      "THREAD": "5/16-18F",
+      "EYEENDKIT": "AC1047-1"
+    },
+    {
+      "TYPE": "test stand",
+      "MODELNO": "ES10",
+      "DESCRIPTION": "Test stand",
+      "THREAD": "5/16-18F",
+      "EYEENDKIT": "AC1047-1"
+    },
+    {
+      "TYPE": "test stand",
+      "MODELNO": "ES20",
+      "DESCRIPTION": "Test stand",
+      "THREAD": "5/16-18F",
+      "EYEENDKIT": "AC1047-1"
+    },
+    {
+      "TYPE": "test stand",
+      "MODELNO": "ES30",
+      "DESCRIPTION": "Test stand",
+      "THREAD": "5/16-18F",
+      "EYEENDKIT": "AC1047-1"
+    },
+    {
+      "TYPE": "test stand",
+      "MODELNO": "TSA750",
+      "DESCRIPTION": "Test stand",
+      "THREAD": "5/16-18F",
+      "EYEENDKIT": "AC1047-1"
+    },
+    {
+      "TYPE": "test stand",
+      "MODELNO": "TSA750H",
+      "DESCRIPTION": "Test stand",
+      "THREAD": "5/16-18F",
+      "EYEENDKIT": "AC1047-1"
+    },
+    {
+      "TYPE": "test stand",
+      "MODELNO": "TSB100",
+      "DESCRIPTION": "Test stand",
+      "THREAD": "5/16-18F",
+      "EYEENDKIT": "AC1047-1"
+    },
+    {
+      "TYPE": "test stand",
+      "MODELNO": "TSC1000",
+      "DESCRIPTION": "Test stand",
+      "THREAD": "5/16-18F",
+      "EYEENDKIT": "AC1047-1"
+    },
+    {
+      "TYPE": "test stand",
+      "MODELNO": "TSC1000H",
+      "DESCRIPTION": "Test stand",
+      "THREAD": "5/16-18F",
+      "EYEENDKIT": "AC1047-1"
+    },
+    {
+      "TYPE": "test stand",
+      "MODELNO": "TSF",
+      "DESCRIPTION": "Test stand",
+      "THREAD": "5/16-18F",
+      "EYEENDKIT": "AC1047-1"
+    },
+    {
+      "TYPE": "test stand",
+      "MODELNO": "TSFH",
+      "DESCRIPTION": "Test stand",
+      "THREAD": "5/16-18F",
+      "EYEENDKIT": "AC1047-1"
+    },
+    {
+      "TYPE": "test stand",
+      "MODELNO": "ESM303 ",
+      "DESCRIPTION": "Test stand",
+      "THREAD": "5/16-18F",
+      "EYEENDKIT": "AC1047-1"
+    },
+    {
+      "TYPE": "test stand",
+      "MODELNO": "ESM303H ",
+      "DESCRIPTION": "Test stand",
+      "THREAD": "5/16-18F",
+      "EYEENDKIT": "AC1047-1"
+    },
+    {
+      "TYPE": "test stand",
+      "MODELNO": "ESM750",
+      "DESCRIPTION": "Test stand",
+      "THREAD": "1/2-20F",
+      "EYEENDKIT": "AC1047-2"
+    },
+    {
+      "TYPE": "test stand",
+      "MODELNO": "ESM1500",
+      "DESCRIPTION": "Test stand",
+      "THREAD": "1/2-20F",
+      "EYEENDKIT": "AC1047-2"
+    },
+    {
+      "TYPE": "test stand",
+      "MODELNO": "F105-EM",
+      "DESCRIPTION": "Test stand",
+      "THREAD": "5/16-18F",
+      "EYEENDKIT": "AC1047-1"
+    },
+    {
+      "TYPE": "test stand",
+      "MODELNO": "F305-EM",
+      "DESCRIPTION": "Test stand",
+      "THREAD": "5/16-18F",
+      "EYEENDKIT": "AC1047-1"
+    },
+    {
+      "TYPE": "test stand",
+      "MODELNO": "F505-EM",
+      "DESCRIPTION": "Test stand",
+      "THREAD": "5/16-18F",
+      "EYEENDKIT": "AC1047-1"
+    },
+    {
+      "TYPE": "test stand",
+      "MODELNO": "F505H-EM",
+      "DESCRIPTION": "Test stand",
+      "THREAD": "5/16-18F",
+      "EYEENDKIT": "AC1047-1"
+    },
+    {
+      "TYPE": "test stand",
+      "MODELNO": "F755-EM",
+      "DESCRIPTION": "Test stand",
+      "THREAD": "1/2-20F",
+      "EYEENDKIT": "AC1047-2"
+    },
+    {
+      "TYPE": "test stand",
+      "MODELNO": "F755S-EM",
+      "DESCRIPTION": "Test stand",
+      "THREAD": "1/2-20F",
+      "EYEENDKIT": "AC1047-2"
+    },
+    {
+      "TYPE": "test stand",
+      "MODELNO": "F1505-EM",
+      "DESCRIPTION": "Test stand",
+      "THREAD": "1/2-20F",
+      "EYEENDKIT": "AC1047-2"
+    },
+    {
+      "TYPE": "test stand",
+      "MODELNO": "F1505S-EM",
+      "DESCRIPTION": "Test stand",
+      "THREAD": "1/2-20F",
+      "EYEENDKIT": "AC1047-2"
+    },
+    {
+      "TYPE": "test stand",
+      "MODELNO": "F105-IM",
+      "DESCRIPTION": "Test stand",
+      "THREAD": "5/16-18F",
+      "EYEENDKIT": "AC1047-1"
+    },
+    {
+      "TYPE": "test stand",
+      "MODELNO": "F305-IM",
+      "DESCRIPTION": "Test stand",
+      "THREAD": "5/16-18F",
+      "EYEENDKIT": "AC1047-1"
+    },
+    {
+      "TYPE": "test stand",
+      "MODELNO": "F505-IM",
+      "DESCRIPTION": "Test stand",
+      "THREAD": "5/16-18F",
+      "EYEENDKIT": "AC1047-1"
+    },
+    {
+      "TYPE": "test stand",
+      "MODELNO": "F505H-IM",
+      "DESCRIPTION": "Test stand",
+      "THREAD": "5/16-18F",
+      "EYEENDKIT": "AC1047-1"
+    },
+    {
+      "TYPE": "test stand",
+      "MODELNO": "F755-IM",
+      "DESCRIPTION": "Test stand",
+      "THREAD": "1/2-20F",
+      "EYEENDKIT": "AC1047-2"
+    },
+    {
+      "TYPE": "test stand",
+      "MODELNO": "F755S-IM",
+      "DESCRIPTION": "Test stand",
+      "THREAD": "1/2-20F",
+      "EYEENDKIT": "AC1047-2"
+    },
+    {
+      "TYPE": "test stand",
+      "MODELNO": "F1505-IM",
+      "DESCRIPTION": "Test stand",
+      "THREAD": "1/2-20F",
+      "EYEENDKIT": "AC1047-2"
+    },
+    {
+      "TYPE": "test stand",
+      "MODELNO": "F1505S-IM",
+      "DESCRIPTION": "Test stand",
+      "THREAD": "1/2-20F",
+      "EYEENDKIT": "AC1047-2"
+    }
+]

@@ -4,12 +4,45 @@
 import { useState } from "react";
 import Select from "react-select";
 
-import {grips, devicesGrouped, eyeendKits} from "./Data";
+import { grips, devicesGrouped, eyeendKits } from "./Data";
 import "./App.css";
+import data from "./data.json";
 
 function App() {
   const [gripEyeEnd, setGripEyeEnd] = useState("");
   const [deviceEyeEnd, setDeviceEyeEnd] = useState("");
+
+  const selectData = data.map((item) => {
+    item.label = `${item.MODELNO} - ${item.DESCRIPTION}${item.THREAD ? " - " + item.THREAD : ""}`;
+    item.value = item.MODELNO;
+    return item;
+  });
+
+  function compare(a, b) {
+    if (a.MODELNO < b.MODELNO) {
+      return -1;
+    }
+    if (a.MODELNO > b.MODELNO) {
+      return 1;
+    }
+    return 0;
+  }
+
+  const grips = selectData.filter((item) => item.TYPE === "grip").sort(compare);
+  const sensors = selectData
+    .filter((item) => item.TYPE === "sensor")
+    .sort(compare);
+  const gauges = selectData
+    .filter((item) => item.TYPE === "gauge")
+    .sort(compare);
+  const testStands = selectData
+    .filter((item) => item.TYPE === "test stand")
+    .sort(compare);
+  const devicesGrouped = [
+    { label: "Sensors", options: sensors },
+    { label: "Force Gauges", options: gauges },
+    { label: "Test Stands", options: testStands },
+  ];
 
   function onSelect(input, form) {
     if (form === "grips") {
@@ -18,7 +51,7 @@ function App() {
         return;
       }
       const result = eyeendKits.filter(
-        (item) => item.model === input.eyeendKit
+        (item) => item.model === input.EYEENDKIT
       );
       setGripEyeEnd(result[0]);
     } else if (form === "device") {
@@ -27,7 +60,7 @@ function App() {
         return;
       }
       const result = eyeendKits.filter(
-        (item) => item.model === input.eyeendKit
+        (item) => item.model === input.EYEENDKIT
       );
       setDeviceEyeEnd(result[0]);
     }
@@ -36,7 +69,8 @@ function App() {
   return (
     <div className="App">
       <div style={{ height: "20px" }}></div>
-      <div style={{ width: "500px" }}>
+      <div style={{ maxWidth: "400px", width: "100%" }}>
+        {/* start first select section */}
         <div className="selectItemWrap">
           <div className="selectLabel">Connect this grip:</div>
           <Select
@@ -47,24 +81,45 @@ function App() {
               onSelect(item, "grips");
             }}
           />
-          {gripEyeEnd && (
-            <div className="resultItem">
-              <img className="resultItemImage" src={gripEyeEnd.imgsrc} alt="" />
-              <div className="resultItemText">
-                <strong>
-                  {gripEyeEnd.model} - {gripEyeEnd.description}
-                </strong>
-                <div style={{ fontSize: ".9rem" }}>
-                  Includes:
-                  {gripEyeEnd.includes &&
-                    gripEyeEnd.includes.map((item, index) => {
-                      return <div key={index}>{item}</div>;
-                    })}
+          {gripEyeEnd &&
+            gripEyeEnd.model !== "none" &&
+            gripEyeEnd.model !== "integrated" && (
+              <div className="resultItem">
+                <img
+                  className="resultItemImage"
+                  src={gripEyeEnd.imgsrc}
+                  alt=""
+                />
+                <div className="resultItemText">
+                  <strong>
+                    {gripEyeEnd.model} - {gripEyeEnd.description}
+                  </strong>
+                  <div style={{ fontSize: ".9rem" }}>
+                    Includes:
+                    {gripEyeEnd.includes &&
+                      gripEyeEnd.includes.map((item, index) => {
+                        return <div key={index}>{item}</div>;
+                      })}
+                  </div>
                 </div>
+              </div>
+            )}
+          {gripEyeEnd.model === "none" && (
+            <div className="resultItem">
+              <div style={{ color: "#ff0000" }}>
+                Eye end adapters are not available for this model.
+              </div>
+            </div>
+          )}
+          {gripEyeEnd.model === "integrated" && (
+            <div className="resultItem">
+              <div>
+                {gripEyeEnd.description}
               </div>
             </div>
           )}
         </div>
+        {/* end first select section */}
         <div className="resultItemArrow">
           <svg
             height="60px"
@@ -91,28 +146,32 @@ function App() {
               onSelect(item, "device");
             }}
           />
-          {deviceEyeEnd &&
-            deviceEyeEnd.model !==
-              "none" && (
-                <div className="resultItem">
-                  <img className="resultItemImage" src={deviceEyeEnd.imgsrc} alt="" />
-                  <div className="resultItemText">
-                    <strong>
-                      {deviceEyeEnd.model} - {deviceEyeEnd.description}
-                    </strong>
-                    <div style={{ fontSize: ".9rem" }}>
-                      Includes:
-                      {deviceEyeEnd.includes &&
-                        deviceEyeEnd.includes.map((item, index) => {
-                          return <div key={index}>{item}</div>;
-                        })}
-                    </div>
-                  </div>
+          {deviceEyeEnd && deviceEyeEnd.model !== "none" && (
+            <div className="resultItem">
+              <img
+                className="resultItemImage"
+                src={deviceEyeEnd.imgsrc}
+                alt=""
+              />
+              <div className="resultItemText">
+                <strong>
+                  {deviceEyeEnd.model} - {deviceEyeEnd.description}
+                </strong>
+                <div style={{ fontSize: ".9rem" }}>
+                  Includes:
+                  {deviceEyeEnd.includes &&
+                    deviceEyeEnd.includes.map((item, index) => {
+                      return <div key={index}>{item}</div>;
+                    })}
                 </div>
-              )}
+              </div>
+            </div>
+          )}
           {deviceEyeEnd.model === "none" && (
             <div className="resultItem">
-              <div style={{color:"#ff0000"}}>Eye end adapters are not available for this model.</div>
+              <div style={{ color: "#ff0000" }}>
+                Eye end adapters are not available for this model.
+              </div>
             </div>
           )}
         </div>
