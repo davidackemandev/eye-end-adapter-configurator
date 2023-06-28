@@ -4,7 +4,7 @@
 import { useState } from "react";
 import Select from "react-select";
 
-import { grips, devicesGrouped, eyeendKits } from "./Data";
+import { eyeendKits } from "./Data";
 import "./App.css";
 import data from "./data.json";
 
