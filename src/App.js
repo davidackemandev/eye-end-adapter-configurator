@@ -13,7 +13,9 @@ function App() {
   const [deviceEyeEnd, setDeviceEyeEnd] = useState("");
 
   const selectData = data.map((item) => {
-    item.label = `${item.MODELNO} - ${item.DESCRIPTION}${item.THREAD ? " - " + item.THREAD : ""}`;
+    item.label = `${item.MODELNO} - ${item.DESCRIPTION}${
+      item.THREAD ? " - " + item.THREAD : ""
+    }`;
     item.value = item.MODELNO;
     return item;
   });
@@ -96,10 +98,7 @@ function App() {
                   </strong>
                   <div style={{ fontSize: ".9rem" }}>
                     Includes:
-                    {gripEyeEnd.includes &&
-                      gripEyeEnd.includes.map((item, index) => {
-                        return <div key={index}>{item}</div>;
-                      })}
+                    <div dangerouslySetInnerHTML={{__html: gripEyeEnd.includes}} />
                   </div>
                 </div>
               </div>
@@ -113,9 +112,7 @@ function App() {
           )}
           {gripEyeEnd.model === "integrated" && (
             <div className="resultItem">
-              <div>
-                {gripEyeEnd.description}
-              </div>
+              <div>{gripEyeEnd.description}</div>
             </div>
           )}
         </div>
@@ -134,9 +131,10 @@ function App() {
             <path d="M8 15.5l7.5-7.5h-4.5v-8h-6v8h-4.5z"></path>
           </svg>
         </div>
+        {/* start second select section */}
         <div className="selectItemWrap">
           <div className="selectLabel">
-            To this sensor, gauge, or baseplate:
+            To this sensor, gauge, or test stand:
           </div>
           <Select
             options={devicesGrouped}
@@ -146,32 +144,36 @@ function App() {
               onSelect(item, "device");
             }}
           />
-          {deviceEyeEnd && deviceEyeEnd.model !== "none" && (
-            <div className="resultItem">
-              <img
-                className="resultItemImage"
-                src={deviceEyeEnd.imgsrc}
-                alt=""
-              />
-              <div className="resultItemText">
-                <strong>
-                  {deviceEyeEnd.model} - {deviceEyeEnd.description}
-                </strong>
-                <div style={{ fontSize: ".9rem" }}>
-                  Includes:
-                  {deviceEyeEnd.includes &&
-                    deviceEyeEnd.includes.map((item, index) => {
-                      return <div key={index}>{item}</div>;
-                    })}
+          {deviceEyeEnd &&
+            deviceEyeEnd.model !== "none" &&
+            deviceEyeEnd.model !== "integrated" && (
+              <div className="resultItem">
+                <img
+                  className="resultItemImage"
+                  src={deviceEyeEnd.imgsrc}
+                  alt=""
+                />
+                <div className="resultItemText">
+                  <strong>
+                    {deviceEyeEnd.model} - {deviceEyeEnd.description}
+                  </strong>
+                  <div style={{ fontSize: ".9rem" }}>
+                    Includes:
+                    <div dangerouslySetInnerHTML={{__html: deviceEyeEnd.includes}} />
+                  </div>
                 </div>
               </div>
-            </div>
-          )}
+            )}
           {deviceEyeEnd.model === "none" && (
             <div className="resultItem">
               <div style={{ color: "#ff0000" }}>
-                Eye end adapters are not available for this model.
+                {deviceEyeEnd.description}
               </div>
+            </div>
+          )}
+          {deviceEyeEnd.model === "integrated" && (
+            <div className="resultItem">
+              <div>{deviceEyeEnd.description}</div>
             </div>
           )}
         </div>
