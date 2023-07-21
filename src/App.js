@@ -31,6 +31,7 @@ function App() {
   }
 
   const grips = selectData.filter((item) => item.TYPE === "grip").sort(compare);
+  
   const sensors = selectData
     .filter((item) => item.TYPE === "sensor")
     .sort(compare);
