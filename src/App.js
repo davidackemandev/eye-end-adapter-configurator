@@ -71,8 +71,7 @@ function App() {
 
   return (
     <div className="App">
-      <div style={{ height: "20px" }}></div>
-      <div style={{ maxWidth: "400px", width: "100%" }}>
+      <div className="selectLabel">Eye End Configurator</div>
         {/* start first select section */}
         <div className="selectItemWrap">
           <div className="selectLabel">Connect this grip:</div>
@@ -120,8 +119,8 @@ function App() {
         {/* end first select section */}
         <div className="resultItemArrow">
           <svg
-            height="60px"
-            width="60px"
+            height="25px"
+            width="25px"
             stroke="currentColor"
             fill="#c6c6c6"
             strokeWidth="0"
@@ -178,9 +177,6 @@ function App() {
             </div>
           )}
         </div>
-
-        <div></div>
-      </div>
     </div>
   );
 }
