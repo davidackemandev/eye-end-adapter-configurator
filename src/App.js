@@ -74,7 +74,7 @@ function App() {
       <div className="selectLabel">Eye End Configurator</div>
         {/* start first select section */}
         <div className="selectItemWrap">
-          <div className="selectLabel">Connect this grip:</div>
+          <div className="selectLabel">Select a grip to find the compatible eye end kit:</div>
           <Select
             options={grips}
             isSearchable={true}
@@ -134,7 +134,7 @@ function App() {
         {/* start second select section */}
         <div className="selectItemWrap">
           <div className="selectLabel">
-            To this sensor, gauge, or test stand:
+            Select a sensor gauge or test stand to find the compatible eye end kit.:
           </div>
           <Select
             options={devicesGrouped}
