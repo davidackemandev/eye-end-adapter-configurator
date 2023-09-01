@@ -9,10 +9,12 @@ import "./App.css";
 import data from "./data.json";
 
 function App() {
+  const [selected1,setSelected1] = useState("");
+  const [selected2,setSelected2] = useState("");
   const [gripEyeEnd, setGripEyeEnd] = useState("");
   const [deviceEyeEnd, setDeviceEyeEnd] = useState("");
 
-  const selectData = data.map((item) => {
+  const selectData = data.models.map((item) => {
     item.label = `${item.MODELNO} - ${item.DESCRIPTION}${
       item.THREAD ? " - " + item.THREAD : ""
     }`;
@@ -56,6 +58,7 @@ function App() {
       const result = eyeendKits.filter(
         (item) => item.model === input.EYEENDKIT
       );
+      setSelected1(input);
       setGripEyeEnd(result[0]);
     } else if (form === "device") {
       if (!input) {
@@ -65,16 +68,22 @@ function App() {
       const result = eyeendKits.filter(
         (item) => item.model === input.EYEENDKIT
       );
+      setSelected2(input);
       setDeviceEyeEnd(result[0]);
     }
   }
 
+  const customStyles = {
+    menuPortal: provided => ({ ...provided, zIndex: 9999 }),
+    menu: provided => ({ ...provided, zIndex: 9999 })
+  }
+
   return (
     <div className="App">
-      <div className="selectLabel">Eye End Configurator</div>
+      <div className="selectLabel" style={{fontSize:"1rem"}}>Quick Configurator</div>
         {/* start first select section */}
         <div className="selectItemWrap">
-          <div className="selectLabel">Select a grip to find the compatible eye end kit:</div>
+          <div className="selectLabel">Connect this grip:</div>
           <Select
             options={grips}
             isSearchable={true}
@@ -82,6 +91,9 @@ function App() {
             onChange={(item) => {
               onSelect(item, "grips");
             }}
+            minMenuHeight={400}
+            styles={customStyles}
+
           />
           {gripEyeEnd &&
             gripEyeEnd.model !== "none" &&
@@ -93,13 +105,14 @@ function App() {
                   alt=""
                 />
                 <div className="resultItemText">
+                  {selected1.MODELNO} requires:<br/>
                   <strong>
                     {gripEyeEnd.model} - {gripEyeEnd.description}
                   </strong>
-                  <div style={{ fontSize: ".9rem" }}>
+                  {/* <div style={{ fontSize: ".9rem" }}>
                     Includes:
                     <div dangerouslySetInnerHTML={{__html: gripEyeEnd.includes}} />
-                  </div>
+                  </div> */}
                 </div>
               </div>
             )}
@@ -133,8 +146,9 @@ function App() {
         </div>
         {/* start second select section */}
         <div className="selectItemWrap">
+          {gripEyeEnd.model === "none" && <div className="noneOverlay"></div>}
           <div className="selectLabel">
-            Select a sensor gauge or test stand to find the compatible eye end kit.:
+            To this sensor, gauge, or test stand:
           </div>
           <Select
             options={devicesGrouped}
@@ -143,6 +157,8 @@ function App() {
             onChange={(item) => {
               onSelect(item, "device");
             }}
+            minMenuHeight={400}
+            styles={customStyles}
           />
           {deviceEyeEnd &&
             deviceEyeEnd.model !== "none" &&
@@ -154,13 +170,14 @@ function App() {
                   alt=""
                 />
                 <div className="resultItemText">
+                  {selected2.MODELNO} requires:<br/>
                   <strong>
                     {deviceEyeEnd.model} - {deviceEyeEnd.description}
                   </strong>
-                  <div style={{ fontSize: ".9rem" }}>
+                  {/* <div style={{ fontSize: ".9rem" }}>
                     Includes:
                     <div dangerouslySetInnerHTML={{__html: deviceEyeEnd.includes}} />
-                  </div>
+                  </div> */}
                 </div>
               </div>
             )}

@@ -1,15 +1,16 @@
-/* .App {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-} */
+.App {
+  padding: 12px;
+  background: #ececec;
+  border-radius: 8px;
+}
 
 .selectItemWrap{
+  position:relative;
   width:100%;
   border: 1px solid hsl(0, 0%, 80%);;
   border-radius: 6px;
   padding: 8px;
+  background: #ffffff;
 }
 
 .resultItem{
@@ -27,7 +28,7 @@
 }
 
 .selectLabel{
-  font-size: .8rem;
+  font-size: .9rem;
   font-weight: bold;
   color: #525252;
   margin-bottom: 6px;
@@ -37,4 +38,15 @@
   height: 120px;
   width: 120px;
   margin-right: 10px;
+}
+
+.noneOverlay{
+  position: absolute;
+  z-index: 1;
+  top: 0px;
+  left: 0px;
+  width:100%;
+  height: 100%;
+  background: rgba(0,0,0,0.5);
+  border-radius: 6px;
 }

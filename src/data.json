@@ -1,4 +1,5 @@
-[
+{
+  "models": [
     {
       "TYPE": "grip",
       "MODELNO": "G1003",
@@ -607,21 +608,21 @@
       "MODELNO": "M3-012",
       "DESCRIPTION": "Force gauge",
       "THREAD": "#10-32M",
-      "EYEENDKIT": "AC1045"
+      "EYEENDKIT": "none"
     },
     {
       "TYPE": "gauge",
       "MODELNO": "M3-025",
       "DESCRIPTION": "Force gauge",
       "THREAD": "#10-32M",
-      "EYEENDKIT": "AC1045"
+      "EYEENDKIT": "none"
     },
     {
       "TYPE": "gauge",
       "MODELNO": "M3-05",
       "DESCRIPTION": "Force gauge",
       "THREAD": "#10-32M",
-      "EYEENDKIT": "AC1045"
+      "EYEENDKIT": "none"
     },
     {
       "TYPE": "gauge",
@@ -684,21 +685,21 @@
       "MODELNO": "M4-012",
       "DESCRIPTION": "Force gauge",
       "THREAD": "#10-32M",
-      "EYEENDKIT": "AC1045"
+      "EYEENDKIT": "none"
     },
     {
       "TYPE": "gauge",
       "MODELNO": "M4-025",
       "DESCRIPTION": "Force gauge",
       "THREAD": "#10-32M",
-      "EYEENDKIT": "AC1045"
+      "EYEENDKIT": "none"
     },
     {
       "TYPE": "gauge",
       "MODELNO": "M4-05",
       "DESCRIPTION": "Force gauge",
       "THREAD": "#10-32M",
-      "EYEENDKIT": "AC1045"
+      "EYEENDKIT": "none"
     },
     {
       "TYPE": "gauge",
@@ -761,21 +762,21 @@
       "MODELNO": "M5-012",
       "DESCRIPTION": "Force gauge",
       "THREAD": "#10-32M",
-      "EYEENDKIT": "AC1045"
+      "EYEENDKIT": "none"
     },
     {
       "TYPE": "gauge",
       "MODELNO": "M5-025",
       "DESCRIPTION": "Force gauge",
       "THREAD": "#10-32M",
-      "EYEENDKIT": "AC1045"
+      "EYEENDKIT": "none"
     },
     {
       "TYPE": "gauge",
       "MODELNO": "M5-05",
       "DESCRIPTION": "Force gauge",
       "THREAD": "#10-32M",
-      "EYEENDKIT": "AC1045"
+      "EYEENDKIT": "none"
     },
     {
       "TYPE": "gauge",
@@ -873,21 +874,21 @@
       "MODELNO": "M7-012",
       "DESCRIPTION": "Force gauge",
       "THREAD": "#10-32M",
-      "EYEENDKIT": "AC1045"
+      "EYEENDKIT": "none"
     },
     {
       "TYPE": "gauge",
       "MODELNO": "M7-025",
       "DESCRIPTION": "Force gauge",
       "THREAD": "#10-32M",
-      "EYEENDKIT": "AC1045"
+      "EYEENDKIT": "none"
     },
     {
       "TYPE": "gauge",
       "MODELNO": "M7-05",
       "DESCRIPTION": "Force gauge",
       "THREAD": "#10-32M",
-      "EYEENDKIT": "AC1045"
+      "EYEENDKIT": "none"
     },
     {
       "TYPE": "gauge",
@@ -1139,21 +1140,21 @@
       "MODELNO": "FS05-012 ",
       "DESCRIPTION": "Force sensor",
       "THREAD": "#10-32M",
-      "EYEENDKIT": "AC1045"
+      "EYEENDKIT": "none"
     },
     {
       "TYPE": "sensor",
       "MODELNO": "FS05-025 ",
       "DESCRIPTION": "Force sensor",
       "THREAD": "#10-32M",
-      "EYEENDKIT": "AC1045"
+      "EYEENDKIT": "none"
     },
     {
       "TYPE": "sensor",
       "MODELNO": "FS05-05 ",
       "DESCRIPTION": "Force sensor",
       "THREAD": "#10-32M",
-      "EYEENDKIT": "AC1045"
+      "EYEENDKIT": "none"
     },
     {
       "TYPE": "sensor",
@@ -1257,22 +1258,22 @@
       "TYPE": "test stand",
       "MODELNO": "ES05",
       "DESCRIPTION": "Test stand",
-      "THREAD": "5/16-18F",
-      "EYEENDKIT": "AC1047-1"
+      "THREAD": "#10-32F",
+      "EYEENDKIT": "AC1047"
     },
     {
       "TYPE": "test stand",
       "MODELNO": "ES10",
       "DESCRIPTION": "Test stand",
-      "THREAD": "5/16-18F",
-      "EYEENDKIT": "AC1047-1"
+      "THREAD": "#10-32F",
+      "EYEENDKIT": "AC1047"
     },
     {
       "TYPE": "test stand",
       "MODELNO": "ES20",
       "DESCRIPTION": "Test stand",
-      "THREAD": "5/16-18F",
-      "EYEENDKIT": "AC1047-1"
+      "THREAD": "#10-32F",
+      "EYEENDKIT": "AC1047"
     },
     {
       "TYPE": "test stand",
@@ -1470,4 +1471,81 @@
       "THREAD": "1/2-20F",
       "EYEENDKIT": "AC1047-2"
     }
-]
+  ],
+  "eye end kits": [
+    {
+      "MODEL": "AC1045",
+      "DESCRIPTION": "Force gauge / force sensor adapter kit, #10-32F",
+      "IMGSRC": "/img/AC1045_800x800.jpg",
+      "INCLUDES": "1x G1082 eye end<br>1x G1084 washer<br>2x G1079 lock ring<br>1x G1080 anchor pin"
+    },
+    {
+      "MODEL": "AC1045-1",
+      "DESCRIPTION": "Force gauge / force sensor adapter kit, 5/16-18F",
+      "IMGSRC": "/img/AC1045-1_800x800.jpg",
+      "INCLUDES": "1x G1082-1 eye end<br>1x G1084-1 washer<br>2x G1079 lock ring<br>1x G1080 anchor pin"
+    },
+    {
+      "MODEL": "AC1045-2",
+      "DESCRIPTION": "Force gauge adapter kit, 1/2-20M",
+      "IMGSRC": "/img/AC1045-2_800x800.jpg",
+      "INCLUDES": "1x G1081-2 eye end<br>1x G1084-2 washer<br>2x G1079 lock ring<br>1x G1080 anchor pin"
+    },
+    {
+      "MODEL": "AC1046",
+      "DESCRIPTION": "Grip adapter kit, #10-32M",
+      "IMGSRC": "/img/AC1046_800x800.jpg",
+      "INCLUDES": "1x G1083 eye end adapter<br>1x G1079 lock ring"
+    },
+    {
+      "MODEL": "AC1046-1",
+      "DESCRIPTION": "Grip adapter kit, 5/16-18M",
+      "IMGSRC": "/img/AC1046-1_800x800.jpg",
+      "INCLUDES": "1x G1083-1 eye end adapter<br>1x G1079 lock ring"
+    },
+    {
+      "MODEL": "AC1046-2",
+      "DESCRIPTION": "Grip adapter kit, 1/2-20M",
+      "IMGSRC": "/img/AC1046-2_800x800.jpg",
+      "INCLUDES": "1x G1083-2 eye end adapter<br>1x G1079 lock ring"
+    },
+    {
+      "MODEL": "AC1047",
+      "DESCRIPTION": "Test frame base adapter kit, #10-32M",
+      "IMGSRC": "/img/AC1047_800x800.jpg",
+      "INCLUDES": "1x G1081 eye end<br>1x G1080 anchor pin<br>2x G1079 lock ring"
+    },
+    {
+      "MODEL": "AC1047-1",
+      "DESCRIPTION": "Test frame base adapter kit, 5/16-18M",
+      "IMGSRC": "/img/AC1047-1_800x800.jpg",
+      "INCLUDES": "1x G1081-1 eye end<br>1x G1080 anchor pin<br>2x G1079 lock ring"
+    },
+    {
+      "MODEL": "AC1047-2",
+      "DESCRIPTION": "Test frame base / force sensor adapter kit, 1/2-20M",
+      "IMGSRC": "/img/AC1047-2_800x800.jpg",
+      "INCLUDES": "1x G1081-2 eye end<br>1x G1080 anchor pin<br>2x G1079 lock ring"
+    },
+    {
+      "MODEL": "AC1047-3",
+      "DESCRIPTION": "Force sensor adapter kit, 1/4-28M",
+      "IMGSRC": "/img/AC1047-3_800x800.jpg",
+      "INCLUDES": "1x G1081-3 eye end<br>1x G1080 anchor pin<br>2x G1079 lock ring"
+    },
+    {
+      "MODEL": "AC1047-4",
+      "DESCRIPTION": "Force sensor adapter, Series R03, #10-32M",
+      "IMGSRC": "/img/AC1047-4_800x800.jpg",
+      "INCLUDES": "1x G1081 eye end<br>1x G1080 anchor pin<br>2x G1079 lock ring<br>1x G1084 washer"
+    },
+    {
+      "MODEL": "none",
+      "DESCRIPTION": "Eye end adapters are not available for this model."
+    },
+    {
+      "MODEL": "integrated",
+      "DESCRIPTION": "This model includes an integrated eye end."
+    }
+  ]
+}
